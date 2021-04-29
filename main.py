@@ -7,7 +7,7 @@ import sys
 import time
 
 #   set up the connection
-child = pexpect.spawn('telnet 10.20.172.64')
+child = pexpect.spawn('telnet 0.0.0.0')
 child.logfile = sys.stdout.buffer
 print(child.before)
 # Login
