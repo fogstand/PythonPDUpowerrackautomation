@@ -20,3 +20,12 @@ child.send('apc'+'\r')
 #child.expect('communication established')
 child.expect('apc>')
 
+#System status
+
+child.send('olOff 3'+'\r')
+print('turn off outlet 3')
+time.sleep(30)
+child.send('olOn 3'+'\r')
+print('turn on outlet 3')
+
+#print(child.before)
