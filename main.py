@@ -29,3 +29,5 @@ child.send('olOn 3'+'\r')
 print('turn on outlet 3')
 
 #print(child.before)
+
+#More functionality can be added based on all apc commands and requirements
